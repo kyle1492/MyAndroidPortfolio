@@ -23,71 +23,39 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:text="My Nanodegree Apps"
+            android:text="@string/app_name"
             android:textAlignment="center"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FF9800"
-            android:onClick="showTips"
-            android:text="Popular Movies" />
+            style="@style/MainButtonTheme"
+            android:text="@string/app_1" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FF9800"
-            android:onClick="showTips"
-            android:text="Stock Hawk" />
+            style="@style/MainButtonTheme"
+            android:text="@string/app_2" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FF9800"
-            android:onClick="showTips"
-            android:text="Build it Bigger"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="161dp" />
+            style="@style/MainButtonTheme"
+            android:text="@string/app_3" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FF9800"
-            android:onClick="showTips"
-            android:text="Make Your App Material" />
+            style="@style/MainButtonTheme"
+            android:text="@string/app_4" />
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FF9800"
-            android:onClick="showTips"
-            android:text="Go Ubiquitous" />
+            style="@style/MainButtonTheme"
+            android:text="@string/app_5" />
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#F57C00"
-            android:onClick="showTips"
-            android:text="Capstone " />
+            style="@style/MainButtonTheme"
+            android:background="@color/colorPrimaryButton"
+            android:text="@string/app_6" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
